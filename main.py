@@ -16,7 +16,7 @@ from servo_lock import ServoLock
 GPIO.setmode(GPIO.BCM)
 
 # Hardware config — update pins/port to match your wiring
-SERIAL_PORT  = '/dev/ttyACM0'   # or /dev/ttyACM0
+SERIAL_PORT  = '/dev/ttyACM0'   # or /dev/ttyUSB0
 LCD_ADDRESS  = 0x27             # run 'sudo i2cdetect -y 1' to confirm (may be 0x3F)
 BUZZER_PIN   = 23               # BCM pin for buzzer
 BUTTON_PIN   = 18               # BCM pin for push button (doorknob)
