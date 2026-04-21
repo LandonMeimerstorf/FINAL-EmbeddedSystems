@@ -38,6 +38,8 @@ void loop() {
         Serial.println("INCORRECT");
       }
       inputCode = "";
+    } else if (key == 'D') {
+      Serial.println("DOORBELL");
     } else {
       inputCode += key;
       Serial.println("KEY");
